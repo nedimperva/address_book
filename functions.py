@@ -83,7 +83,7 @@ def delete_contact(columns):
 def search_contact():
     """Function to search and print contacts"""
     
-    #Prompt user for choice
+    #Prompt user for choice, search by name or number
     print("""Choose search by: ""
                 1. Name
                 2. Number""")
